@@ -2241,6 +2241,7 @@ def transcribe_dataset( voice, language=None, skip_existings=False, progress=Non
 	results = {}
 
 	files = get_voice(voice, load_latents=False)
+	print(f"{voice = }")
 	indir = f'./training/{voice}/'
 	infile = f'{indir}/whisper.json'
 
