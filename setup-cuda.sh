@@ -15,6 +15,4 @@ python3 -m pip install -r ./modules/dlas/requirements.txt # instal DLAS requirem
 python3 -m pip install -e ./modules/dlas/ # install DLAS
 python3 -m pip install -r ./requirements.txt # install local requirements
 
-rm *.bat
-
 deactivate
